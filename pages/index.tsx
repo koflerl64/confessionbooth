@@ -4,8 +4,8 @@ export default function Home() {
     <main className="p-6">
       <h1 className="text-2xl mb-4">Welcome to Confession Booth</h1>
       <ul className="space-y-2">
-        <li><a href="/upload" className="text-blue-600 underline">Upload Media</a></li>
-        <li><a href="/view" className="text-blue-600 underline">View Random Media</a></li>
+        <li><Link href="/upload" className="text-blue-600 underline">Upload Media</Link></li>
+        <li><Link href="/view" className="text-blue-600 underline">View Random Media</Link></li>
       </ul>
     </main>
   );
